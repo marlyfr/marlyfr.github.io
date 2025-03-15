@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="css/pag.css">
+</head>
+<body>
+
+    <script src="pag.js"></script>
+    <header>
+        <h1>¡Hola, soy Marly Francineth Pichol López!</h1>
+        <p>"Construyendo el futuro digital, una línea de código a la vez."</p>
+        <img src="perfil.jpg" alt="Foto de perfil" class="perfil">
+    </header>
+    
+    <main>
+        <section id="info">
+            <h2>Sobre mí</h2>
+            <p>Soy estudiante de la carrera de Ingebieria en Sistemas y ciencias de la computacion, Desde siempre me ha interesado la tecnología y la manera en que podemos crear soluciones innovadoras a través del código. Actualmente me encuentro en proceso de formación como desarrollador aprendiendo y mejorando mis habilidades día a día. </p>
+            <p>Cuando no estoy programando, disfruto explorar nuevas tecnologías, jugar videojuegos, escuchar música y aprender sobre diseño gráfico y animación.</p>
+            <p>Si quieres saber más sobre mi trabajo o colaborar en un proyecto, no dudes en ponerte en contacto conmigo. ¡Será un gusto conectar contigo!</p>
+        </section>
+
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <img src="travel.jpg" alt="Proyecto 1">
+                    <p>Blog de Viajes "ExploraMundo"
+                        Un sitio web interactivo donde los usuarios pueden compartir experiencias de viaje, leer recomendaciones sobre destinos y descubrir consejos útiles para viajar de manera económica y segura.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="aprendeya.jpg" alt="Proyecto 2">
+                    <p>Plataforma Educativa "AprendeYa"
+                        Un sitio web de aprendizaje en línea con cursos gratuitos y de pago sobre diversas materias, desde programación hasta idiomas, con videos interactivos y foros de discusión</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu Nombre" required>
+                
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" placeholder="Tu Correo" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" placeholder="Tu Mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 | Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
